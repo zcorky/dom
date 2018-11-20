@@ -1,6 +1,6 @@
 {
   "name": "@zcorky/dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "dom utils.",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -65,6 +65,6 @@
     "browser"
   ],
   "dependencies": {
-    "@zcorky/is-support-passive": "^0.0.1"
+    "@zcorky/is-support-passive": "^0.0.2"
   }
 }
