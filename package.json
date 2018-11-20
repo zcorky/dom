@@ -61,12 +61,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@zcorky/fz": "^1.0.2",
-    "@zcorky/dom": "^0.0.1",
-    "isomorphic-fetch": "^2.2.1"
-  },
   "support": [
     "browser"
-  ]
+  ],
+  "dependencies": {
+    "@zcorky/is-support-passive": "^0.0.1"
+  }
 }
