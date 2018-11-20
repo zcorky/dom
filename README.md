@@ -23,6 +23,7 @@ import {
   addEvent, addEvents,
   removeEvent, removeEvents,
   onTap,
+  getClientXY,
 } from '@zcorky/dom';
 
 // 1 get element, remove jquery
@@ -47,4 +48,8 @@ addEvent($element, 'tap', handler); // support simple tap event for mobile
 // = onTap($element, handler);
 // or batch
 addEvents($element, ['click', 'tap'], handler);
+
+// 4 get position
+// 4.1 MouseEvent | TouchEvent event position (x, y) => (clientX, clientY)
+getClientXY(event); // { clientX, clientY }
 ```
